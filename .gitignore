@@ -1,0 +1,4 @@
+.claude/
+.netlify/
+outputs/
+node_modules/

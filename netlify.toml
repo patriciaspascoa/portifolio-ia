@@ -1,2 +1,8 @@
 [build]
   publish = "."
+
+[[redirects]]
+  from = "http://portfolio.patriciasalesf.com.br/*"
+  to = "https://portfolio.patriciasalesf.com.br/:splat"
+  status = 301
+  force = true
