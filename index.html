@@ -661,7 +661,8 @@
     @media (max-width: 1024px) {
       .hero { grid-template-columns: 1fr; min-height: auto; }
       .hero-left { padding: 8rem 2.5rem 4rem; }
-      .hero-right { height: 60vw; max-height: 520px; }
+      .hero-right { height: 90vw; max-height: 600px; order: -1; }
+      .hero-photo { object-position: 50% 20%; }
       .hero-overlay { background: linear-gradient(to top, var(--color-base) 0%, transparent 60%); }
       .sobre-grid { grid-template-columns: 1fr; }
       .sobre-aside { position: static; }
@@ -680,7 +681,9 @@
       :root { --space-2xl: 4rem; }
       .container { padding: 0 1.5rem; }
       .nav-links { display: none; }
-      .hero-left { padding: 6rem 1.5rem 3rem; }
+      .hero-left { padding: 3rem 1.5rem 3rem; }
+      .hero-right { height: 100vw; max-height: 500px; }
+      .hero-photo { object-position: 50% 25%; }
       .footer-inner { flex-direction: column; align-items: flex-start; gap: 1rem; }
     }
   </style>
